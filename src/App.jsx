@@ -37,20 +37,26 @@ function App() {
   ];
 
   return (
-    <div className="flex flex-col rounded-t-0 bg-white min-w-[375px] sm:rounded-3xl sm:mx-auto sm:drop-shadow-xl sm:flex-row sm:w-[500px] md:w-[600px]">
-      <div className="flex flex-col items-center bg-gradient-to-b px-4 from-[#7857ff] to-[#2e2be9] pb-5 rounded-b-3xl sm:rounded-3xl sm:w-1/2">
+    <main className="flex flex-col rounded-t-0 bg-white min-w-[375px] sm:rounded-3xl sm:mx-auto sm:drop-shadow-xl sm:flex-row sm:w-[500px] md:w-[600px] dark:bg-slate-600">
+      <div className="flex flex-col items-center bg-gradient-to-b  from-[#7857ff] to-[#2e2be9] px-4 pb-5 rounded-b-3xl sm:rounded-3xl sm:w-1/2 dark:bg-gradient-to-b dark:from-gray-950 dark:to-slate-700">
         <p className="text-slate-300 py-4 sm:py-6 sm:text-lg">Your result</p>
-        <div className="w-32 h-32 sm:w-36 sm:h-36 sm:mt-2 md:w-40 md:h-40 md:mb-6 bg-gradient-to-b from-[#4e21ca] to-[#2421ca00] p-2 rounded-full">
-          <p className="text-white font-bold text-5xl sm:text-6xl md:text-7xl pt-4 sm:pt-6">76</p>
-          <small className="text-slate-400 sm:text-base md:text-md sm:mt-2">of 100</small>
+        <div className="w-32 h-32 sm:w-36 sm:h-36 sm:mt-2 md:w-40 md:h-40 md:mb-5 bg-gradient-to-b from-[#4e21ca] to-[#2421ca00] p-2 rounded-full dark:bg-gradient-to-b dark:from-slate-800 dark:to-slate-800">
+          <p className="text-white font-bold text-5xl sm:text-6xl md:text-7xl pt-4 sm:pt-6">
+            76
+          </p>
+          <small className="text-slate-400 sm:text-base md:text-md sm:mt-2">
+            of 100
+          </small>
         </div>
-        <p className="text-white pt-4 sm:pt-5 pb-1 sm:pb-2 text-xl sm:text-2xl">Great</p>
+        <p className="text-white pt-4 pb-1  sm:pb-3 text-xl sm:text-2xl">
+          Great
+        </p>
         <p className="w-4/5 text-slate-300 leading-5">
           You scored higher than 65% of the people who have taken the tests.
         </p>
       </div>
-      <div className="bg-white p-6 sm:p- min-[376px]:rounded-3xl sm:w-1/2">
-        <h3 className="text-left sm:text-xl text-[#303b5a] font-bold text-lg pb-3">
+      <div className="bg-white p-6 sm:p- min-[376px]:rounded-3xl sm:w-1/2 dark:bg-slate-600">
+        <h3 className="text-left sm:text-xl text-[#303b5a] font-bold text-lg pb-3 dark:text-gray-100">
           Summary
         </h3>
         {/* Summary list goes here */}
@@ -79,11 +85,11 @@ function App() {
             </div>
           ))}
         </div>
-        <button className="text-white w-full bg-[#303b5a] mt-3 py-3 rounded-full hover:bg-[#2e2be9]">
+        <button className="text-white w-full bg-[#303b5a] mt-3 py-3 rounded-full hover:bg-[#2e2be9] dark:bg-slate-800 dark:hover:bg-slate-950">
           Continue
         </button>
       </div>
-    </div>
+    </main>
   );
 }
 
