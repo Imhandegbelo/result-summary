@@ -76,7 +76,7 @@ function App() {
                   alt={`icon-${index}`}
                   className="w-5 h-auto mr-2"
                 />
-                <p className={`font-medium ${data.color}`}>{data.title}</p>
+                <span className={`font-medium ${data.color}`}>{data.title}</span>
               </button>
               <p className="text-slate-400">
                 <span className="text-[#303b5a] font-bold">{data.score} </span>/

@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://Imhandegbelo.github.io/result-summary)
+- Live Site URL: [https://imhandegbelo.github.io/result-summary](https://Imhandegbelo.github.io/result-summary)
 
 ## My process
 

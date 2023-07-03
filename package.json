@@ -2,7 +2,7 @@
   "name": "result-component-react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Imhandegbelo.github.io/result-summary",
+  "homepage": "https://Imhandegbelo.github.io/result-summary/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
