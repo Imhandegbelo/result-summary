@@ -39,7 +39,7 @@ function App() {
   return (
     <main className="flex flex-col rounded-t-0 bg-white min-w-[375px] sm:rounded-3xl sm:mx-auto sm:drop-shadow-xl sm:flex-row sm:w-[500px] md:w-[600px] dark:bg-slate-600">
       <div className="flex flex-col items-center bg-gradient-to-b  from-[#7857ff] to-[#2e2be9] px-4 pb-5 rounded-b-3xl sm:rounded-3xl sm:w-1/2 dark:bg-gradient-to-b dark:from-gray-950 dark:to-slate-700">
-        <p className="text-slate-300 py-4 sm:py-6 sm:text-lg">Your result</p>
+        <h1 className="text-slate-300 py-4 sm:py-6 sm:text-lg">Your result</h1>
         <div className="w-32 h-32 sm:w-36 sm:h-36 sm:mt-2 md:w-40 md:h-40 md:mb-5 bg-gradient-to-b from-[#4e21ca] to-[#2421ca00] p-2 rounded-full dark:bg-gradient-to-b dark:from-slate-800 dark:to-slate-800">
           <p className="text-white font-bold text-5xl sm:text-6xl md:text-7xl pt-4 sm:pt-6">
             76
